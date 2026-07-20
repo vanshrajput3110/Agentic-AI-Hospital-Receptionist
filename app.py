@@ -178,7 +178,10 @@ Department : {department}
         st.write("Last saved row:")
         st.dataframe(patient)
 
-       
+       with open("appointments.csv", "r", encoding="utf-8") as f:
+       content = f.read()
+
+       st.text(content)
        
         st.success("✅ Appointment Booked Successfully")
 
