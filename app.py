@@ -74,7 +74,7 @@ with right:
 
 st.markdown("---")
 
-if st.button("🔍 Analyze Patient", use_container_width=True):
+if st.button("🔍 Analyze Patient", width='stretch'):
 
     if name == "" or symptoms == "":
         st.warning("Please fill all details.")
@@ -161,28 +161,13 @@ Department : {department}
             "Date":datetime.now().strftime("%d-%m-%Y %H:%M")
         }])
 
-        import csv
+        patient.to_csv(
+            "appointments.csv",
+            mode="a",
+            header=False,
+            index=False
+        )
 
-        with open("appointments.csv", "a", newline="", encoding="utf-8") as f:
-          writer = csv.writer(f)
-          writer.writerow([
-           name,
-           age,
-           symptoms,
-           department,
-           urgency,
-           doctor,
-           token,
-           datetime.now().strftime("%d-%m-%Y %H:%M")
-    ])
-        st.write("Last saved row:")
-        st.dataframe(patient)
-
-       with open("appointments.csv", "r", encoding="utf-8") as f:
-       content = f.read()
-
-       st.text(content)
-       
         st.success("✅ Appointment Booked Successfully")
 
         st.balloons()
@@ -201,7 +186,7 @@ try:
 
     st.dataframe(
         history,
-        use_container_width=True
+        width='stretch'
     )
 
     st.markdown("---")
