@@ -161,12 +161,20 @@ Department : {department}
             "Date":datetime.now().strftime("%d-%m-%Y %H:%M")
         }])
 
-        patient.to_csv(
-            "appointments.csv",
-            mode="a",
-            header=False,
-            index=False
-        )
+        import csv
+
+with open("appointments.csv", "a", newline="", encoding="utf-8") as f:
+    writer = csv.writer(f)
+    writer.writerow([
+        name,
+        age,
+        symptoms,
+        department,
+        urgency,
+        doctor,
+        token,
+        datetime.now().strftime("%d-%m-%Y %H:%M")
+    ])
         st.write("Last saved row:")
         st.dataframe(patient)
 
