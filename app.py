@@ -256,5 +256,5 @@ try:
 
     st.pyplot(fig2)
 
-except Exception:
-    st.info("No appointments yet.")
+except Exception as e:
+    st.exception(e)
