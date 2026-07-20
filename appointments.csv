@@ -1,0 +1,54 @@
+Name,Age,Symptoms,Department,Urgency,Doctor,Token,Date
+Vansh,27,Fever,General,Low,Dr. Sharma,A883,20-07-2026 00:13
+Rahul,45,Chest Pain,Emergency,High,Dr. Patel,A884,20-07-2026 00:20
+Priya,10,Cough,Pediatrics,Medium,Dr. Gupta,A885,20-07-2026 00:25
+Amit,30,Stress,Mental Health,Medium,Dr. Khan,A886,20-07-2026 00:30
+Rohan,35,Fracture,Orthopedics,High,Dr. Verma,A887,20-07-2026 00:35
+varun,67,stomach ache,General,Low,Dr. Sharma,A373,20-07-2026 09:56
+vaishnavi,67,stomach ache,General,Low,Dr. Sharma,A904,20-07-2026 09:58
+Aarav,24,Headache,General,Low,Dr. Sharma,A905,20-07-2026 10:00
+Diya,32,High fever and cough,General,Medium,Dr. Sharma,A906,20-07-2026 10:03
+Rakesh,58,Joint pain,Orthopedics,Medium,Dr. Verma,A907,20-07-2026 10:06
+Meera,8,Child with fever,Pediatrics,Medium,Dr. Gupta,A908,20-07-2026 10:09
+Akash,49,Difficulty breathing,Emergency,High,Dr. Patel,A909,20-07-2026 10:12
+Neha,27,Anxiety,Mental Health,Medium,Dr. Khan,A910,20-07-2026 10:15
+Mohit,40,Knee injury,Orthopedics,Medium,Dr. Verma,A911,20-07-2026 10:18
+Pooja,12,Baby with cough,Pediatrics,Low,Dr. Gupta,A912,20-07-2026 10:21
+Deepak,36,Food poisoning,General,Medium,Dr. Sharma,A913,20-07-2026 10:24
+Karan,53,Stroke symptoms,Emergency,High,Dr. Patel,A914,20-07-2026 10:27
+Sneha,31,Depression,Mental Health,Medium,Dr. Khan,A915,20-07-2026 10:30
+Arjun,44,Fracture,Orthopedics,High,Dr. Verma,A916,20-07-2026 10:33
+Kavya,6,Ear pain in child,Pediatrics,Low,Dr. Gupta,A917,20-07-2026 10:36
+Rahul,29,Fever,General,Low,Dr. Sharma,A918,20-07-2026 10:39
+Amit,61,Chest pain,Emergency,High,Dr. Patel,A919,20-07-2026 10:42
+Riya,17,Stress,Mental Health,Medium,Dr. Khan,A920,20-07-2026 10:45
+Aditya,39,Back pain,Orthopedics,Medium,Dr. Verma,A921,20-07-2026 10:48
+Priya,9,High fever,General,Medium,Dr. Sharma,A922,20-07-2026 10:51
+Nisha,26,Headache and fever,General,Low,Dr. Sharma,A923,20-07-2026 10:54
+Varun,48,Road accident,Emergency,High,Dr. Patel,A924,20-07-2026 10:57
+Sonal,34,Panic attacks,Mental Health,Medium,Dr. Khan,A925,20-07-2026 11:00
+Aarav,52,Joint stiffness,Orthopedics,Medium,Dr. Verma,A926,20-07-2026 11:03
+Diya,5,Child has cold,Pediatrics,Low,Dr. Gupta,A927,20-07-2026 11:06
+Akash,42,Stomach ache,General,Low,Dr. Sharma,A928,20-07-2026 11:09
+Rohan,55,Severe bleeding,Emergency,High,Dr. Patel,A929,20-07-2026 11:12
+Neha,23,Depression,Mental Health,Medium,Dr. Khan,A930,20-07-2026 11:15
+Mohit,46,Shoulder pain,Orthopedics,Medium,Dr. Verma,A931,20-07-2026 11:18
+Meera,11,Cough,Pediatrics,Low,Dr. Gupta,A932,20-07-2026 11:21
+Deepak,38,Vomiting,General,Medium,Dr. Sharma,A933,20-07-2026 11:24
+Karan,63,Heart attack symptoms,Emergency,High,Dr. Patel,A934,20-07-2026 11:27
+Sneha,28,Anxiety and stress,Mental Health,Medium,Dr. Khan,A935,20-07-2026 11:30
+Arjun,37,Ankle injury,Orthopedics,Medium,Dr. Verma,A936,20-07-2026 11:33
+Kavya,4,Fever in child,Pediatrics,Medium,Dr. Gupta,A937,20-07-2026 11:36
+Rahul,30,Cold and cough,General,Low,Dr. Sharma,A938,20-07-2026 11:39
+Pooja,41,Food poisoning,General,Medium,Dr. Sharma,A939,20-07-2026 11:42
+Akash,59,Difficulty breathing,Emergency,High,Dr. Patel,A940,20-07-2026 11:45
+Neha,25,Panic attacks,Mental Health,Medium,Dr. Khan,A941,20-07-2026 11:48
+Rakesh,54,Fracture,Orthopedics,High,Dr. Verma,A942,20-07-2026 11:51
+Priya,13,Child with fever,Pediatrics,Medium,Dr. Gupta,A943,20-07-2026 11:54
+Amit,33,Fever and weakness,General,Low,Dr. Sharma,A944,20-07-2026 11:57
+Varun,47,Road traffic accident,Emergency,High,Dr. Patel,A945,20-07-2026 12:00
+Sonal,36,Stress and insomnia,Mental Health,Medium,Dr. Khan,A946,20-07-2026 12:03
+Mohit,43,Knee injury,Orthopedics,Medium,Dr. Verma,A947,20-07-2026 12:06
+Meera,7,Ear infection,Pediatrics,Low,Dr. Gupta,A948,20-07-2026 12:09
+Deepak,45,Stomach pain,General,Medium,Dr. Sharma,A949,20-07-2026 12:12
+Akash,60,Unconscious after fall,Emergency,High,Dr. Patel,A950,20-07-2026 12:15
