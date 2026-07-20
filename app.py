@@ -167,7 +167,11 @@ Department : {department}
             header=False,
             index=False
         )
+st.write("Last saved row:")
+st.dataframe(patient)
 
+check = pd.read_csv("appointments.csv")
+st.success(f"Rows after saving: {len(check)}")
         st.success("✅ Appointment Booked Successfully")
 
         st.balloons()
