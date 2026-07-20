@@ -163,23 +163,23 @@ Department : {department}
 
         import csv
 
-with open("appointments.csv", "a", newline="", encoding="utf-8") as f:
-    writer = csv.writer(f)
-    writer.writerow([
-        name,
-        age,
-        symptoms,
-        department,
-        urgency,
-        doctor,
-        token,
-        datetime.now().strftime("%d-%m-%Y %H:%M")
+        with open("appointments.csv", "a", newline="", encoding="utf-8") as f:
+          writer = csv.writer(f)
+          writer.writerow([
+           name,
+           age,
+           symptoms,
+           department,
+           urgency,
+           doctor,
+           token,
+           datetime.now().strftime("%d-%m-%Y %H:%M")
     ])
         st.write("Last saved row:")
         st.dataframe(patient)
 
-        check = pd.read_csv("appointments.csv")
-        st.success(f"Rows after saving: {len(check)}")
+       
+       
         st.success("✅ Appointment Booked Successfully")
 
         st.balloons()
